@@ -1,6 +1,6 @@
 var port = process.env.PORT || 8000;
 
-let appInsights = require("applicationinsights");
+//let appInsights = require("applicationinsights");
 
 var http = require("http");
 //testing
