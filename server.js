@@ -13,7 +13,7 @@ var server = http.createServer(function (request, response) {
     response.write("<title>Hello Testing</title>");
     response.write("</head>");
     response.write("<body>");
-    response.write(`Hello from ${process.env.MyParameter}!`);
+    response.write(`Hello from test ${process.env.MyParameter}!`);
     response.write("</body>");
     response.write("</html>");
     response.end();
